@@ -13,8 +13,9 @@ const index = ref('');
 const cantidad = ref('')
 
 function agregar(nombre){
-    index.value = store.getIndexByName(nombre)
-    hay_producto.value = true
+    index.value = store.getIndexByName(nombre);
+    hay_producto.value = true;
+    cantidad.value = "";
 }
 
 function btn_agregar(){

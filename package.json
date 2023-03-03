@@ -10,14 +10,17 @@
     "lint": "npx eslint --init"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "cors": "^2.8.5",
     "pinia": "^2.0.32",
     "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
     "vue-universal-modal": "^1.1.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "eslint-plugin-vue": "^9.9.0",
     "morgan": "^1.10.0",
     "vite": "^4.1.0"
   }
