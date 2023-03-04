@@ -49,7 +49,7 @@ function agregar(){
     nuevoProveedor.nombre = nombreProveedor.value;
     nuevoProveedor.precioDeCompra = precioCompra.value;
     nuevoProveedor.unidadesPorLote = unidadesxLote.value;
-    nuevoProveedor.precioUnitario = (precioCompra.value/unidadesxLote.value).toFixed(3);
+    nuevoProveedor.precioUnitario = Number((precioCompra.value/unidadesxLote.value).toFixed(3));
     store.agregarNuevoProveedor(valores.value.nombre,nuevoProveedor);
     limpiar();
 }
